@@ -1,0 +1,46 @@
+<!doctype html>  
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>phpform</title>
+    <style>
+        
+            h1 {
+                font-family: monospace;
+                text-align: center;
+                color: lightred;
+            }
+            
+            body {
+                background: lightblue;
+                font-family: monospace;
+            }
+            
+            label {
+                font-weight: bolder;
+                font-size: 20px
+            }
+    </style>
+
+    </head>
+        
+        <body>
+                   <h1>My PHP Form</h1>
+                   
+                   <form action="form.php" method= "get">
+                        <div>
+                            <label for= "firstname">First name:
+                            <input type= "text" name= "firstname" id= "firstname"></label>
+                        </div>
+                        
+                        <div>
+                            <label for= "lastname"> Last name:
+                            <input type= "text" name=  "lastname" id= "lastname"></label>
+                        </div>
+                        
+                        <div>
+                            <input type="submit" value= "GO">
+                        </div>
+                   </form>
+        </body>
+    </html>
